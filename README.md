@@ -206,6 +206,29 @@ Bước 2: Dùng câu lệnh dir để xem list files và ta tìm được file 
 
 Bước 3: Mở file flag.txt ta tìm được flag là **CTF{File_Transfer_Protocol}**
 
+### Bài 5: Packet capture 101
+Tập tin em đang có trong tay chính là một đoạn trích xuất nội dung gói tin mạng ra vào của máy tính nạn nhân trong khoảng thời gian anh ta bị lừa đảo. Em hãy tìm ra địa chỉ trang web lừa đảo ấy là gì và gửi ngay cho BTC nhé!
+
+Ví dụ:
+> Trang web lừa đảo là http://luadao.com thì
+
+> Định dạng flag sẽ là CTF{http://luadao.com}
+
+> ![image](https://user-images.githubusercontent.com/90112096/132130841-2240c34d-2c0d-4b23-b391-238d9b0b221b.png)
+
+FILE: **https://file.io/ZNqzxmzJFoq2**
+  
+#### ***Cách giải:***
+Bước 1: Sử dụng WireShark để đọc file bài đã cho, sau đó ta đọc từng tập tin.
+
+Bước 2: Cuối cùng ta tìm được tập tin có địa chỉ trang web cũng như là flag của bài
+> ![image](https://user-images.githubusercontent.com/90112096/132130912-e76690bb-f340-4cd1-89ae-cda2a0fb17c1.png)
+
+Bước 3: Địa chỉ trang web cần tìm là https://xacminhgarenavn.xyz
+> Flag bài này là **CTF{https://xacminhgarenavn.xyz}**
+  
+## PHẦN IV: FORENSICS
+
 
 
 
