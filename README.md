@@ -228,6 +228,39 @@ Bước 3: Địa chỉ trang web cần tìm là https://xacminhgarenavn.xyz
 > Flag bài này là **CTF{https://xacminhgarenavn.xyz}**
   
 ## PHẦN IV: FORENSICS
+### Bài 1: Mật thư trong ảnh
+Người chơi Z! Không gian mạng chứa rất nhiều loại tri thức và thông tin. Có hàng ngàn loại tập tin, hàng ngàn giao thức khác nhau. Là một người điều tra chứng cứ số, bạn không thể nào biết hết được nó. Nhưng hãy tập luyện cho mình một tư duy nhạy bén, một óc quan sát nhanh nhạy!
+
+Hãy tìm ra thông điệp ẩn nằm trong bức ảnh này.
+
+File ảnh : https://cdn.cjstatic.com/kidctf/forensics/easy_1_basic_hidden/image-5c8ba6fbe0337c1781072b9b47cf213d.png
+
+> ![image](https://user-images.githubusercontent.com/90112096/132131053-30b77639-1c98-4895-974c-ab7218324860.png)
+
+#### ***Cách giải:***
+Bước 1: Tải file ảnh mà đề bài đã cung cấp về
+
+Bước 2: Open file with Notepad, tìm keyword ‘CTF’ thì ta tìm được flag của bài là **CTF{I_was_here_all_the_time}**
+> ![image](https://user-images.githubusercontent.com/90112096/132131075-4c056042-626c-4fb0-bccc-ce09dbb5a98a.png)
+
+### Bài 2: Ổ đĩa hỏng
+Trong quá trình sao lưu dữ liệu, một phần của ổ cứng đã bị hư hại. Chỉ còn sót lại duy nhất một tập tin đã bị mất phần đuôi (file extension). Người chơi Z! Bạn có thể giúp chúng tôi xác định đây là tập tin gì và khám phá ra bí mật bên trong không?
+
+> ![image](https://user-images.githubusercontent.com/90112096/132131095-0d9197d8-9f5a-48a3-9b5e-e41edb178d96.png)
+
+File:https://file.io/tByFz5jK3mP7
+
+#### ***Cách giải:***
+Bước 1: Vào trang https://www.toolsley.com/file.html để tìm đuôi của file và tìm được là .zip
+> ![Capture](https://user-images.githubusercontent.com/90112096/132131332-3aa001ae-ea8b-4a61-9e31-0e7563d92f3f.PNG)
+  
+Bước 2: Thêm tên file đuôi .zip sau đó giải nén ra ta được file hình và cũng là flag của bài
+> ![secret](https://user-images.githubusercontent.com/90112096/132131360-e3d59d4d-6457-4470-9b19-90aadddd574a.jpg)
+
+> Flag của bài này là **CTF{You_cannot_see_me}**
+
+
+
 
 
 
