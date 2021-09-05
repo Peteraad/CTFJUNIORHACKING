@@ -154,6 +154,41 @@ Bước 1: ta thấy EAX = 0x21+0x3A =0x5B do là ADD
 
 Bước 2: Vậy flag cần tìm là **CTF{0x5B}**
 
+## PHẦN III: NETWORK
+### Bài 1: HTTP 101
+Được biết rằng có một website có tên miền là: http.kid.cyberjutsu-lab.tech với cổng mạng 5555.
+Em có thể truy cập vào nó không?
+
+> ![image](https://user-images.githubusercontent.com/90112096/132130498-6fd73bba-a02e-4b5b-b3a2-8b32df20e7a9.png)
+
+#### ***Cách giải:***
+Bước 1: Do đề bài đã cho port của trang web là 5555 thì đơn giản ta chỉ cần truy cập: http.kid.cyberjutsu-lab.tech:5555
+
+Bước 2: Tìm được flag là **CTF{Hypertext_Transfer_Protocol}**
+ 
+### Bài 2: Domain name system 101
+Tên miền onepiece.kid.cyberjutsu-lab.tech đang được phân giải đến một địa chỉ IP trên Internet. Em hãy tìm ra nó nhé!
+
+> Định dạng flag là CTF{địa chỉ IP của tên miền}
+
+>![image](https://user-images.githubusercontent.com/90112096/132130544-1a68f87d-edeb-4b92-8b0f-0ecc5a49095e.png)
+
+#### ***Cách giải:***
+Bước 1: Vào trang https://domaintoipconverter.com/index.php tìm kiếm với domain đã cho ta tìm được ip:  93.13.33.22
+
+Bước 2: Flag cần tìm là **CTF{93.13.33.22}**
+
+### Bài 3: Socket 101
+Có một bí mật đang được cất giữ tại máy chủ có địa chỉ IP là 167.71.204.85 trên cổng mạng 7878 bằng giao thức TCP. Em hãy kết nối đến để xem bí mật cho manh mối kế tiếp là gì!
+
+> ![image](https://user-images.githubusercontent.com/90112096/132130591-62c71786-37e5-4635-91ab-367538aa62ae.png)
+
+#### ***Cách giải:***
+Bước 1: Sử dụng netcat để truy cập đến  IP là 167.71.204.85 trên cổng mạng 7878 bằng giao thức TCP
+Bước 2: Sau đó ta tìm được flag qua hình dưới đây:
+> ![image](https://user-images.githubusercontent.com/90112096/132130655-a9b4eb73-d943-42ac-9a2d-1f754f36d7ab.png)
+  
+> **CTF{connect_to_somewhere}**
 
 
 
