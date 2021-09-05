@@ -61,7 +61,7 @@ Bước 2: Theo quy tắc của mật mã Vigenere . Qua Plaintext và Ciphertex
 >Tương tự như bảng trên ta tìm được Flag là:
 **CTF{ANCIENTCIPHERSAREAWESOME}**
   
-### Bài 4: Mật mã thay thế:
+### Bài 4: Mật mã thay thế
 Được biết bản rõ và bản mã của mật mã thay thế ở trang thứ 4 này như sau:
 > Message = HELLO WHAT ARE YOU DOING  
 > Ciphertext = PYZZC SPFK FEY JCQ ACBHX
@@ -81,6 +81,27 @@ Bước 2: Dựa vào quy luật tìm được ta giải ra Ciphertext đề cho
 CTF{THI_WA_U_EDINWAR}
 > Do chỉ còn 1 khoảng trống nên ta nhanh chóng đó là S và hoàn hiện Flag là:
 > **CTF{THISWASUSEDINWAR}**
+  
+### Bài 5: XOR
+Chỉ bằng một phép toán thao tác bit là XOR, ta đã có thể mã hóa bất kì thông điệp nào. Thật thú vị đúng không nào.
+> ![image](https://user-images.githubusercontent.com/90112096/132129504-6a68bd42-8557-4986-94be-805dd5cc4279.png)
+
+> [xor-a6bd2cd40ff271cbe0c790aa80c1e8a3 (4).zip](https://github.com/Peteraad/CTFJUNIORHACKING/files/7111722/xor-a6bd2cd40ff271cbe0c790aa80c1e8a3.4.zip)
+
+#### ***Cách giải:***
+Bước 1: Tải file .zip bài đã cho, giải nén ta được file encrypt.py và output.txt.
+ 
+Bước 2: Mở file output.txt, ta được cipher
+> Ciphertext: 0xf7c6c18fccc76c0fc0838fc3c64e1428da8fcd4e150ec18fcc6c1c8fdbc74e142c8fcbcaccddd6dfdb8f6b3e691f4e140ccc8fecfbe9d4fafbe99782e2eef682fcecfd9cf882f69ffad28fc4c76c1bc1c88fc1c74e142690a5
+
+Bước 3: Copy ciphertext và encrypt bằng trang https://www.dcode.fr/xor-cipher. Xem các kết quả và ta tìm được flag như hình
+> ![image](https://user-images.githubusercontent.com/90112096/132129685-8b7e0c47-bd08-45ce-a126-c19876123c9f.png)
+> **CTF{UTF8-MAY-SCR3W-Y0U}**
+
+
+
+
+
 
 
   
