@@ -280,7 +280,24 @@ Bước 3: Mở file test.txt bằng câu lênh cat test.txt. Sau đó tìm keyw
 
 > ![image](https://user-images.githubusercontent.com/90112096/132131491-0c119945-8ebb-4657-b184-a245d8691b35.png)
 
+### Bài 4: Dấu vết sót lại
+Cũng trong máy tính hệ điều hành Linux từ thử thách trước, thông qua những dấu hiệu được để lại. Em phát hiện ra trước đó đã có một người đã sử dụng máy tính này, có vẻ đây chính là manh mối tiếp theo dẫn đến kho báu.
 
+Quan sát thấy rằng, người bí ẩn ấy có username là "admin". Nhiệm vụ bây giờ của chúng ta là truy vết xem, người bí ẩn "admin" đã làm gì trên máy tính này!
+
+https://ssh.kid.cyberjutsu-lab.tech/ssh/host
+
+username: player
+password: player
+
+> ![image](https://user-images.githubusercontent.com/90112096/132131600-2aa0cf2a-ee1e-4b21-b429-c851feed199a.png)
+
+#### ***Cách giải:***
+Bước 1: Truy cập vào trang web và đăng nhập bằng tk và mk cho trước.
+Bước 2: Sử dụng câu lệnh history để kiểm tra lịch sử câu lệnh đã sử dụng và ta tìm được
+> ![image](https://user-images.githubusercontent.com/90112096/132131848-e5576d52-de2d-4081-af89-f2abfe7e6ae4.png)
+
+> **CTF{s0mething_sn34ky_hidd3n}**
 
 
 
