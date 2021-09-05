@@ -259,6 +259,27 @@ Bước 2: Thêm tên file đuôi .zip sau đó giải nén ra ta được file 
 
 > Flag của bài này là **CTF{You_cannot_see_me}**
 
+### Bài 3: Trốn tìm
+Lần theo manh mối của các thử thách trước, em phát hiện ra có một máy tính đang được khởi động. Bỗng nhiên bảng điều khiển của hệ điều hành Linux được bật lên.
+Một dòng chữ hướng dẫn hiện ra...
+________________________________________
+https://ssh.kid.cyberjutsu-lab.tech/ssh/host
+username: player
+password: player
+
+> ![image](https://user-images.githubusercontent.com/90112096/132131423-8fef8c01-df24-428b-9ad9-211a587976a4.png)
+
+#### ***Cách giải:***
+Bước 1: Truy cập đường link nhập user và password đã cho.
+
+Bước 2. Dùng câu lệnh dir để tìm xem có file nào đang ở trong máy tính này ko và ta tìm được file test.txt
+> ![image](https://user-images.githubusercontent.com/90112096/132131444-6404469e-2eeb-471b-a8b6-9b632f5a38ac.png)
+
+Bước 3: Mở file test.txt bằng câu lênh cat test.txt. Sau đó tìm keyword ‘CTF’ giấu trong file bằng câu lệnh grep “CTF” test.txt và ta tìm được flag của bài là
+**CTF{now_you_know_grep}**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132131491-0c119945-8ebb-4657-b184-a245d8691b35.png)
+
 
 
 
