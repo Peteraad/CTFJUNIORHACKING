@@ -185,10 +185,27 @@ Có một bí mật đang được cất giữ tại máy chủ có địa chỉ
 
 #### ***Cách giải:***
 Bước 1: Sử dụng netcat để truy cập đến  IP là 167.71.204.85 trên cổng mạng 7878 bằng giao thức TCP
+
 Bước 2: Sau đó ta tìm được flag qua hình dưới đây:
 > ![image](https://user-images.githubusercontent.com/90112096/132130655-a9b4eb73-d943-42ac-9a2d-1f754f36d7ab.png)
   
 > **CTF{connect_to_somewhere}**
+  
+### Bài 4: File Sharing
+Em đã bao giờ nghe về giao thức FTP chưa?
+Hãy sử dụng tài khoản user với mật khẩu là network. Sau đó, thực hiện kết nối đến máy chủ 167.71.204.85 ở dịch vụ FTP để xem bí mật là gì nhé!
+
+> ![image](https://user-images.githubusercontent.com/90112096/132130702-270e4098-921b-4f93-812c-1fa36b233d62.png)
+  
+#### ***Cách giải:***
+Bước 1: Mở cmd nhập prompt -> ftp -> open -> 167.71.204.85 và nhập user password đề đã cho . Thế là ta đã kết nối đến máy chủ.
+> ![image](https://user-images.githubusercontent.com/90112096/132130777-e6837d22-c97b-4802-89ea-8bc13d9b5421.png)
+
+Bước 2: Dùng câu lệnh dir để xem list files và ta tìm được file flag.txt. Sau đó dùng get flag.txt để lấy file về thư mục user 
+> ![image](https://user-images.githubusercontent.com/90112096/132130804-089273c6-a8ed-457f-a20b-8017c8633111.png)
+
+Bước 3: Mở file flag.txt ta tìm được flag là **CTF{File_Transfer_Protocol}**
+
 
 
 
