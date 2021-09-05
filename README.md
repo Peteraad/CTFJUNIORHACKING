@@ -294,12 +294,14 @@ password: player
 
 #### ***Cách giải:***
 Bước 1: Truy cập vào trang web và đăng nhập bằng tk và mk cho trước.
+
 Bước 2: Sử dụng câu lệnh history để kiểm tra lịch sử câu lệnh đã sử dụng và ta tìm được
 > ![image](https://user-images.githubusercontent.com/90112096/132131848-e5576d52-de2d-4081-af89-f2abfe7e6ae4.png)
 
 > **CTF{s0mething_sn34ky_hidd3n}**
 
-
+## PHẦN V: WEB
+  
 
 
 
