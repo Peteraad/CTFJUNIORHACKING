@@ -101,11 +101,45 @@ Bước 3: Copy ciphertext và encrypt bằng trang https://www.dcode.fr/xor-cip
 ## PHẦN II: BINARY
 ### Bài 1: Con trỏ
 Dưới đây là đoạn mã nguồn bằng ngôn ngữ lập trình C. Em hãy cho biết giá trị của biến b là bao nhiêu?
-int buffer[3] = {0x1234,0x2456,0x4567};
-int *a = buffer;
-int b = a[2]*0x4141;
-Ví dụ: Giá trị của b là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
-> ![Uploading Capture.PNG…]()
+> int buffer[3] = {0x1234,0x2456,0x4567};
+ 
+> int *a = buffer;
+
+> int b = a[2]*0x4141;
+
+> Ví dụ: Giá trị của b là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
+  
+> ![Capture](https://user-images.githubusercontent.com/90112096/132130196-615466e7-1cf4-401a-a210-4fa714d7ae85.PNG)
+ 
+#### ***Cách giải:***
+Bước 1: Ta thấy con trỏ a mang giá trị của mảng buffer mà b lại là a[2]*0x4141 
+
+Bước 2: Tức rằng b=0x4567*0x4141=0x11B0C627
+> Vậy flag là **CTF{0x11B0C627}**
+
+### Bài 2: LIFO
+Ở độ khó tiếp theo, đoạn mã hợp ngữ trở nên dài hơn. Em hãy tính toán và tìm ra kết quả của thanh ghi EBX sau khi thực thi 4 lệnh hợp ngữ dưới đây:
+> MOV  EAX,0x41414141
+
+> PUSH EAX
+  
+> POP  EBX
+
+> SUB  EBX,0x2A
+
+> Ví du: Kết quả của thanh ghi EBX là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
+
+>  
+
+#### ***Cách giải:***
+Bước 1: Ta thấy EBX= 0x41414141- 0x2A =0x41414117 do là SUB
+
+Bước 2: Flag cần tìm là  **CTF{0x41414117}**
+
+
+
+
+
 
 
 
