@@ -98,6 +98,16 @@ Bước 3: Copy ciphertext và encrypt bằng trang https://www.dcode.fr/xor-cip
 > ![image](https://user-images.githubusercontent.com/90112096/132129685-8b7e0c47-bd08-45ce-a126-c19876123c9f.png)
 > **CTF{UTF8-MAY-SCR3W-Y0U}**
 
+## PHẦN II: BINARY
+### Bài 1: Con trỏ
+Dưới đây là đoạn mã nguồn bằng ngôn ngữ lập trình C. Em hãy cho biết giá trị của biến b là bao nhiêu?
+int buffer[3] = {0x1234,0x2456,0x4567};
+int *a = buffer;
+int b = a[2]*0x4141;
+Ví dụ: Giá trị của b là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
+> ![Uploading Capture.PNG…]()
+
+
 
 
 
