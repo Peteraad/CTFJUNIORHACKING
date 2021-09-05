@@ -127,14 +127,33 @@ Bước 2: Tức rằng b=0x4567*0x4141=0x11B0C627
 
 > SUB  EBX,0x2A
 
-> Ví du: Kết quả của thanh ghi EBX là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
+> Ví dụ: Kết quả của thanh ghi EBX là 0x1A thì flag sẽ là CTF{0x1A} (in hoa tất cả)
 
->  
+> ![Capture1](https://user-images.githubusercontent.com/90112096/132130374-58663cd6-6c75-4ff6-978a-568ce40af539.PNG)
 
 #### ***Cách giải:***
 Bước 1: Ta thấy EBX= 0x41414141- 0x2A =0x41414117 do là SUB
 
 Bước 2: Flag cần tìm là  **CTF{0x41414117}**
+
+### Bài 3: Hợp ngữ
+Em tìm thấy một máy tính cổ ra đời năm 19xx, thân máy vẫn còn bám bụi, ngay cả nhựa của vỏ máy cũng nhuốm màu vàng của sự cũ kỹ.
+
+Trên màn hình máy tính CRT, hiện lên 2 dòng mã nguồn hợp ngữ. Em hãy tìm ra kết quả của thanh ghi EAX sau khi thực thi đoạn hợp ngữ này nhé:
+
+> MOV EAX, 0x3A  
+
+> ADD EAX, 0x21
+
+>Ví du: EAX là 0x1A thì flag sẽ là CTF{0x1A}
+  
+> ![image](https://user-images.githubusercontent.com/90112096/132130407-ceb05cfb-7624-4b48-a6aa-3bb7a2350df0.png)
+
+#### ***Cách giải:***
+Bước 1: ta thấy EAX = 0x21+0x3A =0x5B do là ADD
+
+Bước 2: Vậy flag cần tìm là **CTF{0x5B}**
+
 
 
 
