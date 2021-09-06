@@ -272,13 +272,13 @@ password: player
 #### ***Cách giải:***
 Bước 1: Truy cập đường link nhập user và password đã cho.
 
-Bước 2. Dùng câu lệnh dir để tìm xem có file nào đang ở trong máy tính này ko và ta tìm được file test.txt
-> ![image](https://user-images.githubusercontent.com/90112096/132131444-6404469e-2eeb-471b-a8b6-9b632f5a38ac.png)
+Bước 2. Dùng câu lệnh find / -type f để tìm xem các file thường xuyên được sử dụng ở trong máy tính này ko và ta tìm được file secret/secret2/getFlag mà để bài cần tìm
+> ![image](https://user-images.githubusercontent.com/90112096/132188950-d1f4a174-9f4a-4748-84f8-10ed70a9470d.png)
 
-Bước 3: Mở file test.txt bằng câu lênh cat test.txt. Sau đó tìm keyword ‘CTF’ giấu trong file bằng câu lệnh grep “CTF” test.txt và ta tìm được flag của bài là
+Bước 3: Truy cập vào thư mục secret2 bằng câu lệnh cd secret/secret2 . Sau đó ta dùng câu lệnh ./getFlag | grep CTF để mở và tìm chữ "CTF", sau đó ta tìm được flag của bài là
 **CTF{now_you_know_grep}**
 
-> ![image](https://user-images.githubusercontent.com/90112096/132131491-0c119945-8ebb-4657-b184-a245d8691b35.png)
+> ![image](https://user-images.githubusercontent.com/90112096/132189303-84333ad5-1eb1-4464-a061-d63b72efda71.png)
 
 ### Bài 4: Dấu vết sót lại
 Cũng trong máy tính hệ điều hành Linux từ thử thách trước, thông qua những dấu hiệu được để lại. Em phát hiện ra trước đó đã có một người đã sử dụng máy tính này, có vẻ đây chính là manh mối tiếp theo dẫn đến kho báu.
