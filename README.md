@@ -301,7 +301,122 @@ Bước 2: Sử dụng câu lệnh history để kiểm tra lịch sử câu l�
 > **CTF{s0mething_sn34ky_hidd3n}**
 
 ## PHẦN V: WEB
+### Bài 1: Mật báo
+"Người chơi Z! Bạn đã sẵn sàng chưa?" - Tai nghe của bạn phát ra thông báo.
+Bỗng nhiên trong một thoáng, bạn đã dịch chuyển tới một nơi rất lạ. Từ từ lấy lại thăng bằng
+"Người chơi Z! Đây là chặng thử thách đầu tiên của bạn, trước mắt bạn là một mảnh giấy chứa một bí mật đang được ẩn đi"
+________________________________________
+http://castle.kid.cyberjutsu-lab.tech/secret.php
+
+> ![image](https://user-images.githubusercontent.com/90112096/132189582-8fc7339c-f14d-48da-a9ba-94dcea066125.png)
+
+#### ***Cách giải:***
+Bước 1: Vào trang web và ấn f12 ta tìm được flag của bài: **CTF{4lwayS_1nsP3ct}**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132189662-4e272ffd-6f54-4fb4-8fcd-2c76c7ce0a02.png)
+
+### Bài 2: Chú vẹt thông minh
+Có được manh mối từ mảnh giấy kia, bạn vội vàng gấp lại, bỏ vào túi áo khoác của mình và đi lên tầng kế tiếp của tòa lâu đài.
+Vừa đi vừa quan sát hành lang của tòa lâu đài này, phần vòm được thiết kế bởi những họa tiết rất tinh xảo. Phỏng đoán vòm này phải cao tận 50m.
+"Này này! Người lạ kia"
+Đột nhiên, có một tiếng nói với tông giọng rất kì lạ đến từ góc phòng xa xa.
+"Đưa cho tôi một thứ, tôi sẽ cho bạn manh mối tiếp theo"
+Bạn càng đi gần lại từ nơi âm thanh vọng ra, dần dần nhân vật kia đã lộ diện. Đó chính là... một chú vẹt
+"Vẹt?!"
+Bạn đáp lại với giọng đầy sự kinh ngạc
+"Vâng! tôi có thể nói tiếng người đấy. Này người chơi, đưa cho tôi một miếng "bánh quy" cookie. Tôi sẽ cho bạn chỉ dẫn tiếp theo" - Chú vẹt nhanh nhảu đáp theo.
+________________________________________
+http://castle.kid.cyberjutsu-lab.tech/cookie.php
+ 
+> ![image](https://user-images.githubusercontent.com/90112096/132189782-f1b95ad1-6999-431b-99d5-6a78fd01904e.png)
+
+#### ***Cách giải:***
+Bước 1: Truy cập vào trang web và ấn f12. Sau đó vào network, ta sẽ thấy file cookie.php mở nó ta tìm được dãy **CTF%7BmY_f%40vor1tE_c0Oki3%7D**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132189869-9df7ea75-7ea4-4aa6-aeeb-1ad2a3305194.png)
+
+Bước 2 Sau khi mã hóa các kí tự, ta được flag cần tìm là: **CTF{mY_f@vor1tE_c0Oki3}**	
   
+### Bài 3: Hành lang tối
+Khắp trong căn phòng bạn đang đứng là những tác phẩm nghệ thuật điêu khắc vừa tinh xảo lại vừa cầu kì. Đồ vật trang trí xung quanh được làm từ gỗ hương, kim loại và vàng, tạo ra một không gian vừa trang trọng lại vừa huyền bí.
+Nhưng hãy luôn nhớ rằng, tất cả những thứ trong tòa lâu đài này đều là sản phẩm của những mã lập trình thực tế ảo.
+Đi theo lời chỉ dẫn của chú vẹt, bạn bước tới một hành lang mang tên "HTTP Header". Theo lời chú vẹt, trong hàng lang này có một thông điệp đang bị giấu đi. Hãy tìm ra và đọc thật to nó lên, một cánh cổng mới sẽ được mở ra.
+________________________________________
+http://castle.kid.cyberjutsu-lab.tech/header.php
+
+> ![image](https://user-images.githubusercontent.com/90112096/132190013-f86075ab-db5d-4de1-8e13-7debd1f0d0f1.png)
+ 
+#### ***Cách giải:***
+Bước 1: Vào trang https://reqbin.com/ tìm kiếm địa chỉ trang web đề cho.
+
+Bước 2: Vào mục Header ta tìm được:
+Server: nginx/1.18.0 (Ubuntu)
+Date: Sat, 04 Sep 2021 16:42:39 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 408
+Connection: keep-alive
+X-Powered-By: PHP/7.3.29
+Secret: CTF{s3crEt_hEaD3r}
+Vary: Accept-Encoding
+Content-Encoding: gzip
+> Flag cần tìm là: **CTF{s3crEt_hEaD3r}**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132190153-bfea082e-02c1-4a04-b9f0-9d705d9fc398.png)
+
+### Bài 4: Rương bí mật
+Sau khi đọc to câu thần chú, bỗng nhiên bức tường làm từ đá hoa cương đã rục rịch di chuyển, để lộ ra một gian phòng hoàn toàn mới.
+Đưa mắt đảo thật nhanh, bạn thấy một rương đồ được đặt tại một góc phòng. Nhưng thật không may, nó đang bị khóa!
+________________________________________
+http://castle.kid.cyberjutsu-lab.tech/treasure.php
+
+> ![image](https://user-images.githubusercontent.com/90112096/132190235-6aac3afe-8b60-4677-8066-defbeca44c77.png)
+
+#### ***Cách giải:***
+Bước 1: Truy cập vào trang và ấn f12,ta tìm được script là 
+> function checkPass(password) {
+       
+  > if (password[0] != "3")
+            return false;
+        
+  > if (password[1] + 1 != String.fromCharCode(53, 49))
+            return false;
+        
+  > if (password.charCodeAt(5) != 8 * 6)
+            return false;
+       
+  > if (password[2] + password[3] != "62")
+            return false;
+    
+  > if (password[4] - password[0] != 4)
+            return false;
+        
+  > return true;
+    }
+
+> ![image](https://user-images.githubusercontent.com/90112096/132190324-8ba0d271-9d19-4cfa-8428-5a2b00080c96.png)
+
+Bước 2: Dựa vào script ta tìm được các số mà đề bài cần
+ 
+> Số đầu tiên là 3
+
+> Số thứ 2 sẽ từ 0-5
+
+> Số thứ 3 là 6
+
+> Số thứ 4 là 2
+
+> Số thứ 5 là 7
+
+> Số thứ 6 là từ 1-9
+
+> Còn hai khoảng trống thay từ từ và cuối cùng mất khẩu ta tìm được là 356270
+
+>  Và Flag tìm được là **CTF{wHy_1+1=11_iN_JS?}**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132190767-bf0ff139-5971-4a61-bfb0-149383766580.png)
+
+
+
 
 
 
