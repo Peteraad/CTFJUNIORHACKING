@@ -478,15 +478,36 @@ Tải tệp đính kèm tại đây ↓ : [baby-socket-client-3412512e8af09208b7
 > ![image](https://user-images.githubusercontent.com/90112096/132192001-6b228417-f887-47fe-8dbe-7e32fcfbba41.png)
 
 #### ***Cách giải:***
-Bước 1: Mở file ,py mà để bài cho, đọc hiểu code sau đó thực hiện theo yêu cầu đề bài và tìm được flag **CTF{can_you_write_your_own_script?}**
+Bước 1: Mở file .py mà để bài cho, đọc hiểu code sau đó thực hiện theo yêu cầu đề bài và tìm được flag **CTF{can_you_write_your_own_script?}**
  
 > Code : https://pastebin.com/cVPW7PFE
   
 > ![image](https://user-images.githubusercontent.com/90112096/132193252-ee463d37-c15f-4128-9a16-347cd2879ab0.png)
+  
+### Bài 5: Khởi động
+"Rất tốt! Để tôi dẫn bạn vào gặp robot MASTER" - Robot quản gia đáp sau khi bạn hoàn thành thử thách thành công.
 
+Bước vào ngôi biệt thự, bạn gặp ngay robot MASTER đang ngồi chễm chệ ờ giữa gian phòng.
 
+"Gặp ngươi thật thú vị, người chơi Z! Robot quản gia, không mất nhiều thời gian nữa. Hãy phổ biến luật chơi của vòng này"
 
+Cũng giống như thử thách trước, robot yêu cầu bạn giao tiếp bằng giao thức TCP thông qua một cổng mạng trên internet (nc 167.71.204.85 9797) để trả lời 100 câu hỏi liên tục về chủ đề chuyển đổi các hệ dữ liệu khác nhau.
 
+Ở dưới đây là ví dụ
+
+Câu hỏi:
+
+> Hãy chuyển 10076747354216 từ hệ-8 sang hệ-10
+
+> Đáp số:
+558205098126
+
+> Thông tin truy cập: nc 167.71.204.85 9797
+
+> ![image](https://user-images.githubusercontent.com/90112096/132194044-0f584453-835e-4df0-b6bc-effc02944349.png)
+
+#### ***Cách giải:***
+Bước 1: Mở file .py mà để bài cho, đọc hiểu code sau đó thực hiện theo yêu cầu đề bài và tìm được flag
 
 
 
