@@ -432,8 +432,24 @@ Bước 2: Sâu chuỗi những từ khác biệt ta được flag
 **CTF{difference_makes_you_difference}**
   
 ### Bài 2: Đếm chữ số
+"Giỏi lắm người chơi Z!" - Robot động viên bạn với ánh mắt đầy hào hứng.
 
+"Câu đố lần này là: 1*2*3*4*5*...*10000, kết quả của nó sẽ có bao nhiêu chữ số?" - ANA liền lập tức đưa ra câu hỏi một cách dứt khoát.
+
+> Flag sẽ có format: CTF{<số chữ số bạn tính được>}
+
+> Ví dụ, giả sử chỉ cần tính 1*2*3*4*5
+
+> Flag sẽ là CTF{3} (vì 1*2*3*4*5 = "120" có 3 chữ số)
   
+> ![image](https://user-images.githubusercontent.com/90112096/132195977-400ddebf-33d3-45ab-8e0e-b193443f400f.png)
+
+#### ***Cách giải:***
+Bước 1: Viết code tìm số chữ số của kết quả, ta tìm được kết quả có 35660
+> Flag của bài là **CTF{35660}**
+
+> ![image](https://user-images.githubusercontent.com/90112096/132196249-b3268809-ed05-446f-96d8-200d2f725639.png)
+
 ### Bài 3: Trò chơi tính tổng
 Trên chuyến tàu để đi đến một vùng đất mới, trạm ga cuối cùng nơi bạn được đưa đến là trước một thế giới rất hiện đại với những ánh đèn neon mang đậm phong cách CyberPunk.
 Ngay khi bạn vừa bước chân ra khỏi ga tàu, có một chú robot đang vẫy tay như muốn tìm lấy sự chú ý từ bạn.
