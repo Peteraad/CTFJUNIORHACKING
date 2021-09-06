@@ -445,7 +445,7 @@ Bước 2: Sâu chuỗi những từ khác biệt ta được flag
 > ![image](https://user-images.githubusercontent.com/90112096/132195977-400ddebf-33d3-45ab-8e0e-b193443f400f.png)
 
 #### ***Cách giải:***
-Bước 1: Viết code tìm số chữ số của kết quả, ta tìm được kết quả có 35660
+Bước 1: Viết code tìm số chữ số của kết quả, ta tìm được kết quả có 35660 chữ số
 > Flag của bài là **CTF{35660}**
 
 > ![image](https://user-images.githubusercontent.com/90112096/132196249-b3268809-ed05-446f-96d8-200d2f725639.png)
