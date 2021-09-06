@@ -415,6 +415,76 @@ Bước 2: Dựa vào script ta tìm được các số mà đề bài cần
 
 > ![image](https://user-images.githubusercontent.com/90112096/132190767-bf0ff139-5971-4a61-bfb0-149383766580.png)
 
+## PHẦN VI: PROGRAMMING
+###Bài 1: Bất đồng
+"Này người chơi Z! Hãy đi theo tôi, tôi sẽ dẫn anh tới gặp robot master" - Robot dẫn tôi đi về phía đường lớn.
+Xung quanh là khung cảnh của một thành phố rất hiện đại, những chiếc tàu đang chạy lơ lửng trên bầu trời cùng với những ánh đèn sực sỡ.
+"Bạn có thích văn chương không?" - ANA bỗng hỏi.
+"Hm..." - Bạn ngập ngừng hồi lâu
+"Này nhé! Tôi sẽ đưa bạn 2 tập tin chứa các bài văn, hãy tìm ra TẤT CẢ sự khác nhau của hai tập tin này. Nếu bạn trả lời đúng, tôi sẽ tiếp tục dẫn bạn tới gặp chủ nhân!"
+
+> ![image](https://user-images.githubusercontent.com/90112096/132191166-5aa03d70-4ca6-4532-9a96-961f0867fde7.png)
+
+#### ***Cách giải:***
+Bước 1: Vào trang https://www.diffchecker.com/ để check điểm khác biệt của hai text.
+
+Bước 2: Sâu chuỗi những từ khác biệt ta được flag
+**CTF{difference_makes_you_difference}**
+  
+### Bài 2: Đếm chữ số
+
+  
+### Bài 3: Trò chơi tính tổng
+Trên chuyến tàu để đi đến một vùng đất mới, trạm ga cuối cùng nơi bạn được đưa đến là trước một thế giới rất hiện đại với những ánh đèn neon mang đậm phong cách CyberPunk.
+Ngay khi bạn vừa bước chân ra khỏi ga tàu, có một chú robot đang vẫy tay như muốn tìm lấy sự chú ý từ bạn.
+
+> "Chào mừng người chơi Z đến với vùng đất Robot, tôi là robot ANA. Ở mục thử thách này bạn phải tìm lời giải cho những câu đó hóc búa mà nếu không dùng lập trình, sẽ khó lòng vượt ải. Bạn sẵn sàng chưa? Đây là màn đầu tiên. Hãy tính tổng của dãy số trong tập tin này và đưa tôi kết quả!"
+  
+> Flag sẽ có format: CTF{<tổng bạn tính được>}
+
+Ví dụ:
+
+> Dãy số: 33 77 10 -200
+
+> Flag sẽ là: CTF{-80}
+  
+> ![image](https://user-images.githubusercontent.com/90112096/132191549-4d64cbcc-9201-4058-8992-f731c48d3d36.png)
+
+File: [dayso.txt](https://github.com/Peteraad/CTFJUNIORHACKING/files/7114742/dayso.txt)
+
+#### ***Cách giải:***
+Bước 1: Vào trang https://miniwebtool.com/sum-calculator/ để tính tổng tất cả chữ số
+
+Bước 2 Kết quả là 6474238. Vậy flag là CTF{6474238}
+
+> ![image](https://user-images.githubusercontent.com/90112096/132191630-00b6a812-5cc4-40aa-b839-eab96c44f75c.png)
+  
+### Bài 4: Socket cơ bản
+
+ANA dừng lại trước cánh cổng của một căn biệt thự nhìn rất hiện đại. Một chú robot ăn mặc như một người quản gia với chiếc nơ màu đỏ sẫm đến trò chuyện với bạn:
+
+"Chào người chơi Z! Cảm ơn robot ANA" - Robot quản gia xoay sang ANA và nói. ANA không quên chào tạm biệt và chúc bạn may mắn.
+
+"Tôi sẽ dẫn bạn tới gặp chủ nhân, nhưng trước hết, chủ nhân tôi muốn bạn giải đố thử thách này. Lần này bạn sẽ không giao tiếp với tôi, mà sẽ phải giao tiếp thông qua socket từ xa với một máy chủ trên Internet"
+
+"Bạn có thể dùng chương trình netcat để tạo kết nối tới máy chủ thông qua câu lệnh: nc 167.71.204.85 20001. Tuy nhiên tôi đã chuẩn bị sẵn một tập tin lập trình Python cho bạn rồi đây."
+
+Robot quản gia liền đưa bạn một tập tin nhằm giúp việc kết nối trở nên dễ dàng hơn.
+
+Tải tệp đính kèm tại đây ↓ : [baby-socket-client-3412512e8af09208b7201fc648aa119f (1).zip](https://github.com/Peteraad/CTFJUNIORHACKING/files/7114756/baby-socket-client-3412512e8af09208b7201fc648aa119f.1.zip)
+
+> Thông tin truy cập: nc 167.71.204.85 20001
+  
+> ![image](https://user-images.githubusercontent.com/90112096/132192001-6b228417-f887-47fe-8dbe-7e32fcfbba41.png)
+
+#### ***Cách giải:***
+Bước 1: Mở file ,py mà để bài cho, đọc hiểu code sau đó thực hiện theo yêu cầu đề bài và tìm được flag **CTF{can_you_write_your_own_script?}**
+ 
+> Code : https://pastebin.com/cVPW7PFE
+  
+> ![image](https://user-images.githubusercontent.com/90112096/132193252-ee463d37-c15f-4128-9a16-347cd2879ab0.png)
+
+
 
 
 
